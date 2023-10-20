@@ -2,18 +2,18 @@
 //
 
 #include "PingPong.h"
-#include "Window.h"
+#include "Window/Window.h"
 
 using namespace std;
 
 int main()
 {
-	Window window(120, 30, 5);
+	// Window window(120, 30, 5);
 
-	while (window.is_open) {
-		window.draw();
-		window.clear();
-	}
+	// while (window.is_open) {
+	// 	window.draw();
+	// 	window.clear();
+	// }
 
 	return 0;
 }
